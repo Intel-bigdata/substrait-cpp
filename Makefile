@@ -19,11 +19,7 @@
 
 BUILD_TYPE := Release
 
-all: initialize-sub debug
-
-initialize-sub:
-	git submodule init
-	git submodule update --remote --merge
+all: debug
 
 clean:
 	@rm -rf build-*
