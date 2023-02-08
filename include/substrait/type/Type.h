@@ -658,9 +658,4 @@ std::shared_ptr<const Map> MAP(
 
 std::shared_ptr<const Struct> STRUCT(const std::vector<TypePtr>& children);
 
-template <class T = ParameterizedType>
-std::shared_ptr<const T> decode(
-    const std::string& rawType,
-    bool forParameterizedType = true);
-
 } // namespace io::substrait
