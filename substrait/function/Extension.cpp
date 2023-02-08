@@ -151,7 +151,6 @@ std::shared_ptr<Extension> Extension::load(const std::string& basePath) {
       "functions_rounding.yaml",
       "functions_string.yaml",
       "functions_set.yaml",
-      "unknown.yaml",
   };
   return load(basePath, extensionFiles);
 }

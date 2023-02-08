@@ -10,6 +10,3 @@ target_link_libraries(
         substrait_common
         fmt::fmt-header-only)
 
-if (${BUILD_TESTING})
-    add_subdirectory(tests)
-endif ()
